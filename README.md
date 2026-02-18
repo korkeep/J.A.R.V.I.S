@@ -30,21 +30,22 @@
 
 ## 🧱 System Architecture
 
-![Image](https://www.researchgate.net/publication/221907506/figure/fig9/AS%3A668343853920276%401536357000936/Top-Level-Architecture-of-a-Smart-home.png)
-
-![Image](https://www.researchgate.net/publication/344219052/figure/fig1/AS%3A934954737360896%401599921988337/A-flow-chart-of-the-communication-process-with-smart-assistant.png)
-
-![Image](https://hacksterio.s3.amazonaws.com/uploads/attachments/386041/gateway_schematic_x1qFiOmixC.png)
-
 ```mermaid
 flowchart LR
-    U[User Voice] --> B[Bixby (STT)]
-    B -->|Webhook| R[Raspberry Pi<br/>MCP Client]
-    R --> C[Cloud AI / LLM]
-    C --> D[Device Controller]
+    subgraph Edge
+        R[Raspberry Pi MCP Client]
+    end
+
+    subgraph Cloud
+        C[Cloud AI LLM]
+        D[Device Controller]
+    end
+
+    U[User Voice] --> B[Bixby STT]
+    B -->|Webhook| R
+    R --> C
+    C --> D
     D --> I[IoT Devices]
-    C --> R
-    R --> B
 ```
 
 ---
