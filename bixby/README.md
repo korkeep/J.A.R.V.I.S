@@ -1,8 +1,7 @@
 # 🎙️ Bixby Integration
 
-본 문서는 **Bixby Capsule을 이용한 음성 입력 처리 및 Webhook 연동 과정**을 설명한다.
-Bixby는 음성 인식(STT)과 기본 파싱을 담당하며,
-처리된 명령은 Edge(MCP Client)로 전달된다.
+본 문서는 **Bixby Capsule을 이용한 음성 입력 처리 및 Webhook 연동 과정**을 설명한다.  
+Bixby는 음성 인식(STT)과 기본 파싱을 담당하며, 처리된 명령은 Edge(MCP Client)로 전달된다.
 
 ---
 
