@@ -1,0 +1,13 @@
+action (ControlDevice) {
+  description (스마트 홈 기기를 제어하는 액션)
+  type (Search) 
+  
+  collect {
+    input (utterance) {
+      type (Utterance)
+      min (Required) max (One)
+    }
+  }
+  
+  output (ControlResult)
+}

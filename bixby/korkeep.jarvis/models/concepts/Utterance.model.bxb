@@ -1,0 +1,3 @@
+text (Utterance) {
+  description (사용자의 제어 명령)
+}

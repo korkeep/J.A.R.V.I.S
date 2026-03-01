@@ -1,0 +1,16 @@
+capsule-info {
+  developer-name (korkeep)
+  display-name (자비스) // Application name
+  dispatch-name (집) // Capsule call name
+  description (빅스비를 통해 스마트 디바이스를 제어합니다)
+  
+  // Icon Path
+  icon-asset (images/icons/jarvis.png) 
+
+  search-keywords {
+    keyword (스마트홈)
+    keyword (빅스비)
+    keyword (smart home)
+    keyword (bixby)
+  }
+}

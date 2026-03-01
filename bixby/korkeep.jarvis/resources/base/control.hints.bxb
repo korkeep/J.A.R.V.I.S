@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    hint ("집에서 거실 불 꺼줘")
+    hint ("집에서 조명 켜")
+    hint ("집에서 에어컨 틀어줘")
+  }
+}
