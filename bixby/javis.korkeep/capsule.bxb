@@ -1,5 +1,5 @@
 capsule {
-  id (korkeep.jarvis)
+  id (jarvis.korkeep)
   version (0.1.0)
   format (3)
   targets {

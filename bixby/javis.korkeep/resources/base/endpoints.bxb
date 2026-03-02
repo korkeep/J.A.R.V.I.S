@@ -2,7 +2,7 @@ endpoints {
   action-endpoints {
     action-endpoint (ControlDevice) {
       accepted-inputs (utterance)
-      remote-endpoint ("https://YOUR_PI_OR_SERVER/api/bixby") {
+      remote-endpoint ("https://localhost:3000/api/bixby") {
         method (POST)
       }
     }
